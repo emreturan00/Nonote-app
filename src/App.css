@@ -1,0 +1,91 @@
+/* App.css */
+/* App.css */
+.App {
+  text-align: center;
+  background-color: #55e8cf; /* Change background color here */
+  height: 100vh; /* Set height to 100% of viewport height */
+  width: 100%; /* Set width to 100% of parent container */
+  display: flex; /* Use flexbox to align content */
+  flex-direction: column; /* Arrange content in a column */
+  justify-content: center; /* Vertically center content */
+  align-items: center; /* Horizontally center content */
+}
+
+
+
+
+.post-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.post-form textarea {
+  width: 400px; /* Adjust width as needed */
+  height: 200px;
+  margin-bottom: 10px;
+  resize: none;
+  border: 1px solid #f9f9f9;
+  border-radius: 10px; /* Rounded corners */
+  padding: 10px;
+  font-size: 16px;
+  background-color: #f9f9f9;
+}
+
+.post-btn {
+  background-color: #1da1f2;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.post-feed {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.post {
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 400px;
+  background-color: #f9f9f9;
+}
+
+.post-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.author {
+  font-weight: bold;
+}
+
+.actions button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-btn {
+  background-color: #ff6347;
+  color: white;
+}
+
+.edit-btn,
+.update-btn {
+  background-color: #1da1f2;
+  color: white;
+}
+
+.actions button:hover {
+  opacity: 0.8;
+}
